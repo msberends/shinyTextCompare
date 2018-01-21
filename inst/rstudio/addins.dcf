@@ -1,4 +1,9 @@
-Name: Compare Text Files
+Name: Compare two files...
 Description: Interactive comparison of text files
 Binding: textcompare
+Interactive: true
+
+Name: Compare active file with file..
+Description: Interactive comparison of active text file with another text file
+Binding: textcompare_active
 Interactive: true

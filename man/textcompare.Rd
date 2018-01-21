@@ -2,9 +2,14 @@
 % Please edit documentation in R/init.R
 \name{textcompare}
 \alias{textcompare}
+\alias{textcompare_active}
 \title{Compare text files line by line}
 \usage{
 textcompare(file1 = NULL, file2 = NULL, file1_colour = rgb(253, 184, 192,
+  maxColorValue = 255), file2_colour = rgb(172, 242, 189, maxColorValue =
+  255), title = "Shiny TextCompare")
+
+textcompare_active(file2 = NULL, file1_colour = rgb(253, 184, 192,
   maxColorValue = 255), file2_colour = rgb(172, 242, 189, maxColorValue =
   255), title = "Shiny TextCompare")
 }
@@ -16,5 +21,5 @@ textcompare(file1 = NULL, file2 = NULL, file1_colour = rgb(253, 184, 192,
 \item{title}{Title to display}
 }
 \description{
-Compare text files line by line and see their differences immediately. You can use filepaths as input, or start the app and select them in the app (or use drag and drop).
+Compare text files line by line and see their differences immediately. You can use filepaths as input, or start the app and select them in the app (or use drag and drop). The function \code{textcompare_active} can be used in RStudio to use the active source document as input for \code{file1}.
 }
