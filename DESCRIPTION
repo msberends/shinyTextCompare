@@ -1,19 +1,19 @@
-Package: certedata
-Version: 0.1.0
-Date: 2018-01-14
-Title: Shiny App for Text Comparison of Two Files
-Authors@R: c(
-    person(
-        given = c("Matthijs", "S."),
-        family = "Berends",
-        email = "m.berends@certe.nl",
-        role = c("cre", "aut"))
+Package: shinyTextCompare
+Version: 0.1.1
+Date: 2018-01-21
+Title: Shiny App for Line By Line Comparison of Two Files
+Authors@R: 
+  person(
+    given = c("Matthijs", "S."),
+    family = "Berends",
+    email = "m.berends@certe.nl",
+    role = c("cre", "aut"))
 Description: A Shiny app that compares the text of two files using 
-    drag and drop.
+  drag and drop.
 Depends: R (>= 3.4)
-Imports: shiny
-URL: https://github.com/msberends/shiny-textcompare
-BugReports: https://github.com/msberends/shiny-textcompare/issues
+Imports: shiny (>= 1.0), mime
+URL: https://github.com/msberends/shinyTextCompare
+BugReports: https://github.com/msberends/shinyTextCompare/issues
 License: GPL-2 | file LICENSE
 Encoding: UTF-8
 LazyData: true

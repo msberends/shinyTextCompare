@@ -1,0 +1,21 @@
+.line {
+  display: inline-block;
+  width: 95%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.linenumber {
+  padding-right: 1%;
+  text-align: right;
+  width: 5%;
+  border-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  opacity: 0.6;
+}
+.file_already_selected {
+  font-style: italic;
+}
+#comparison {
+  font-family: "Lucida Console", Monaco, monospace;
+}

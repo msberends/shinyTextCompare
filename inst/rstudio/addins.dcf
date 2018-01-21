@@ -1,0 +1,4 @@
+Name: Compare Text Files
+Description: Interactive comparison of text files
+Binding: textcompare
+Interactive: true
