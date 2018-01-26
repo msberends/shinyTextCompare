@@ -1,6 +1,6 @@
 Package: shinyTextCompare
-Version: 0.1.2
-Date: 2018-01-21
+Version: 1.0.0
+Date: 2018-01-26
 Title: Shiny App for Line By Line Comparison of Two Files
 Authors@R: 
   person(
@@ -10,7 +10,7 @@ Authors@R:
     role = c("cre", "aut"))
 Description: A Shiny app that compares the text of two files using 
   drag and drop.
-Depends: R (>= 3.4)
+Depends: R (>= 3.1)
 Imports: shiny (>= 1.0), mime, htmltools
 Suggests: rstudioapi
 URL: https://github.com/msberends/shinyTextCompare

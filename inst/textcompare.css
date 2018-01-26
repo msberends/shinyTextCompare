@@ -2,22 +2,25 @@
   padding-left: 5px;
   display: inline-block;
   width: calc(100% - 100px);
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
   line-height: 1.6;
+  border-radius: 0;
 }
 .linenumber {
   padding-right: 5px;
   text-align: center;
   vertical-align: top;
   width: 50px;
-  border-radius: 0;
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
   opacity: 0.6;
+}
+.table {
+  margin-left: auto;
+  margin-right: auto;
 }
 .file_already_selected {
   font-style: italic;
+}
+h2, h3 {
+  text-align: center;
 }
 #comparison pre {
   font-family: "Lucida Console", Monaco, monospace !important;
@@ -25,10 +28,15 @@
 #comparison {
   margin-bottom: 100px;
 }
+#contents2 {
+  text-align: center;
+  margin-top: -10px;
+}
 pre {
   margin: 0;
   border: 0;
   padding: 0;
   background: 0;
+  border-radius: 0;
   font-size: inherit;
 }
